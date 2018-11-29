@@ -15,7 +15,7 @@
     "logger"
   ],
   "author": "Egidio Caprino <egidio.caprino@gmail.com> (https://github.com/EgidioCaprino)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/EgidioCaprino/smooth-logger/issues"
   },
