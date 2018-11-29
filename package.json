@@ -1,20 +1,27 @@
 {
   "name": "smooth-logger",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple logger",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "babel src --out-dir lib --source-maps inline --copy-files",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EgidioCaprino/smooth-logger.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "logger"
+  ],
+  "author": "Egidio Caprino <egidio.caprino@gmail.com> (https://github.com/EgidioCaprino)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EgidioCaprino/smooth-logger/issues"
   },
-  "homepage": "https://github.com/EgidioCaprino/smooth-logger#readme"
+  "homepage": "https://github.com/EgidioCaprino/smooth-logger#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6"
+  }
 }
