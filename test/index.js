@@ -23,8 +23,7 @@ describe('.log', () => {
     global.console = {
       log: jest.fn(),
     };
-    const messages = ['first', 'second', 'third'];
-    createLogger(false).log(...messages);
+    createLogger(false).log('should not be logged');
     expect(global.console.log).toHaveBeenCalledTimes(0);
   });
 });
